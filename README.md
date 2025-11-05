@@ -1,12 +1,17 @@
-# 🛒 Blinkit Sales Data Analysis – Python EDA Project
+#  Blinkit Sales Data Analysis – Python EDA Project
 
-## 📘 Project Overview
+##  Project Summary
+This project performs **Exploratory Data Analysis (EDA)** on Blinkit’s sales dataset to uncover key factors influencing sales across product types and outlets. Using **Python (Pandas, NumPy, Matplotlib, Seaborn)**, it identifies trends, patterns, and insights to support data-driven business decisions and improve sales strategies.
+
+---
+
+##  Project Overview
 This project performs **Exploratory Data Analysis (EDA)** on Blinkit’s sales dataset using Python.  
 The objective is to understand sales performance, customer behavior, and key business insights from the data.
 
 ---
 
-## 🧾 Dataset
+##  Dataset
 The dataset (`blinkit_data.csv`) contains details about products, item fat content, outlet information, and sales.
 
 | Column Name | Description |
@@ -20,7 +25,7 @@ The dataset (`blinkit_data.csv`) contains details about products, item fat conte
 
 ---
 
-## 🧰 Tools & Libraries Used
+##  Tools & Libraries Used
 - **Python**
 - **Pandas** – Data manipulation  
 - **NumPy** – Numerical analysis  
@@ -29,14 +34,14 @@ The dataset (`blinkit_data.csv`) contains details about products, item fat conte
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 - Cleaned inconsistent values in `Item Fat Content`.  
 - Checked data types and missing values.  
 - Standardized categorical fields for consistency.  
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+##  Key Performance Indicators (KPIs)
 1. **Total Sales** – Overall revenue generated.  
 2. **Average Sales** – Mean sales across all items.  
 3. **Number of Items Sold** – Total number of transactions.  
@@ -45,7 +50,7 @@ The dataset (`blinkit_data.csv`) contains details about products, item fat conte
 
 ---
 
-## 📈 Visual Analysis
+##  Visual Analysis
 ### 🔹 Sales by Fat Content
 Pie chart showing the share of total sales between Low Fat and Regular products.
 
@@ -63,7 +68,7 @@ Pie chart displaying contribution of small, medium, and large outlets to total s
 
 ---
 
-## 💡 Insights & Findings
+##  Insights & Findings
 - **Regular** items contribute more to total sales than **Low Fat** ones.  
 - Certain item categories (e.g., Fruits, Snacks) dominate total sales.  
 - **Tier 3** outlets often have higher sales due to volume and accessibility.  
@@ -72,8 +77,32 @@ Pie chart displaying contribution of small, medium, and large outlets to total s
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/your-username/blinkit-sales-analysis.git
+   git clone https://github.com/Hemashrie/blinkit-sales-analysis.git
+   ```
+2. Place `blinkit_data.csv` in the same directory as `blinkit_project.py`.
+3. Run the Python script:
+   ```bash
+   python blinkit_project.py
+   ```
+4. Visualizations will appear for each analysis section.
 
+---
+
+## Skills Demonstrated
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Statistical Insight Generation  
+- Data Visualization (Matplotlib / Seaborn)  
+- Business Intelligence Reporting  
+- Analytical Thinking  
+
+---
+
+## Author
+Created by: Hema Shrie  
+Email: rhemashrie156@gmail.com
+LinkedIn: https://www.linkedin.com/in/venkatasaihemayadav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+---
